@@ -1,4 +1,4 @@
-import { subscriptionStatus, prices } from "@/migrations/schema";
+import { subscriptionStatus, prices } from "../../migrations/schema";
 import { sql } from "drizzle-orm";
 import { boolean, integer, jsonb, pgTable, text, timestamp, uuid } from "drizzle-orm/pg-core";
 
